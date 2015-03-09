@@ -1,0 +1,13 @@
+{
+    "name": "nojacko/email-data-disposable",
+    "description": "Disposable email domains",
+    "authors": [
+        {
+            "name": "James Jackson",
+            "email": "git@nojacko.com"
+        }
+    ],
+    "require-dev": {
+        "php-curl-class/php-curl-class": "~2.1"
+    }
+}
