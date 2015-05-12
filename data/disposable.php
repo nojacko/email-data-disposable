@@ -1253,4 +1253,9 @@ return array (
     'xxtreamcam.com',
     'ahk.jp',
     'svk.jp',
+    'maildx.com',
+    'mailfs.com',
+    'mytemp.email',
+    'tempsky.com',
+    'tmail.ws',
 );
