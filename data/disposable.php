@@ -1258,4 +1258,11 @@ return array (
     'mytemp.email',
     'tempsky.com',
     'tmail.ws',
+    'abcmail.email',
+    'fiifke.de',
+    'inoutmail.de',
+    'inoutmail.eu',
+    'inoutmail.info',
+    'inoutmail.net',
+    'showslow.de',
 );
