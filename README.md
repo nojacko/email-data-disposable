@@ -24,21 +24,21 @@ This library contains data about email disposable domains.
 ## Contribute
 
 ### Add a Domain
-* Add the domain to ```/bin/disposable.txt```.
-* Run ```php update.php```.
-* Submit a pull request.
+* Add the domain to ```/bin/disposable.txt```
+* Run ```php update.php```
+* Submit a pull request
 
 ### Remove a Domain
-* Add the domain to ```/bin/whitelist.txt```.
-* Run ```php update.php```.
-* Submit a pull request.
+* Add the domain to ```/bin/whitelist.txt```
+* Run ```php update.php```
+* Submit a pull request
 
 
 ### Add Another Format
-* Write a new Exporter class (see ```src/Export```)
+* Write a new Exporter class (see ```src/Exporter/BaseInterface.php```)
 * Add it to the end of ```update.php```
 * Run ```php update.php```
-* Submit a pull request, like a boss.
+* Submit a pull request, like a boss
 
 ## Roadmap
 * Disposable MX Records (domains but not IP as they change)

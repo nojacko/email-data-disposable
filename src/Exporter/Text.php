@@ -1,7 +1,7 @@
 <?php
 namespace EmailData\Exporter;
 
-class Text
+class Text implements BaseInterface
 {
     public static function save($path, $data)
     {

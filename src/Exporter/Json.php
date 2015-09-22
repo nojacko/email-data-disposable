@@ -1,7 +1,7 @@
 <?php
 namespace EmailData\Exporter;
 
-class Json
+class Json implements BaseInterface
 {
     public static function save($path, $data)
     {
