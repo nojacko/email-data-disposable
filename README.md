@@ -1,5 +1,5 @@
-# Email Data
-This library contains data about email domains.
+# Email Data Disposable
+This library contains data about email disposable domains.
 
 ---
 
@@ -13,30 +13,35 @@ This library contains data about email domains.
 
 *Only use contents of ```/data/```. The code in this library is just for updating that folder.*
 
-
 * **Either**, include this project into yours via whatever means you want. Git-submodule, Composer, Bower, NPM, etc... are all possible.
 * **Or**, copy the data you want manually.
 
 ## Formats
-
 * PHP (file returns single dimension array)
 * JSON (single dimension array)
 * Text (one per line)
 
-### Need Another Format?
+## Contribute
 
+### Add a Domain
+* Add the domain to ```/bin/disposable.txt```.
+* Run ```php update.php```.
+* Submit a pull request.
+
+### Remove a Domain
+* Add the domain to ```/bin/whitelist.txt```.
+* Run ```php update.php```.
+* Submit a pull request.
+
+
+### Add Another Format
 * Write a new Exporter class (see ```src/Export```)
 * Add it to the end of ```update.php```
 * Run ```php update.php```
 * Submit a pull request, like a boss.
 
 ## Roadmap
-
-* Disposable Email Whitelists (commonly mistaken)
- * Have internal whitelist
- * Source external whitelist
 * Disposable MX Records (domains but not IP as they change)
-* Example TLDs (for whitelisting)
 * Example Extensions (for whitelisting)
 * 1.0.0 Release
 

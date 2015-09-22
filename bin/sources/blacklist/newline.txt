@@ -1,0 +1,6 @@
+https://gist.githubusercontent.com/adamloving/4401361/raw/66688cf8ad890433b917f3230f44489aa90b03b7/temporary-email-address-domains
+https://raw.githubusercontent.com/martenson/disposable-email-domains/master/disposable_email_blacklist.conf
+https://raw.githubusercontent.com/lavab/disposable/master/domains.txt
+https://raw.githubusercontent.com/aaronbassett/DisposableEmailChecker/master/disposable_email_domains.txt
+https://raw.githubusercontent.com/MattKetmo/EmailChecker/master/res/throwaway_domains.txt
+https://raw.githubusercontent.com/flotwig/disposable-email-addresses/master/domains.txt

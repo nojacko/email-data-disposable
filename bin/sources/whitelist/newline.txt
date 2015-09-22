@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/martenson/disposable-email-domains/master/whitelist.conf
