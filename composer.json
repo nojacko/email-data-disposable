@@ -7,7 +7,15 @@
             "email": "git@nojacko.com"
         }
     ],
+    "autoload" : {
+        "psr-4" : {
+            "EmailData\\": "src/"
+        }
+    },
     "require-dev": {
         "php-curl-class/php-curl-class": "~2.1"
+    },
+    "require": {
+        "league/climate": "^3.2"
     }
 }
