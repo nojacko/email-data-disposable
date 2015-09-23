@@ -41,7 +41,9 @@ This library contains data about email disposable domains.
 * Submit a pull request, like a boss
 
 ## Roadmap
-* Example Extensions (for whitelisting)
+* Regex Whitelist Matching
+ * Example Extensions (.test, .example, .invalid, localhost) 
+ * Email providers (gmail.com, yahoo.com, ...)
 * 1.0.0 Release
 
 ## License
