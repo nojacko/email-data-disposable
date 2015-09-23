@@ -23,6 +23,8 @@ class Domains
         $this->domainCountStart = count($this->domains);
 
         $this->whitelist = $this->data->loadWhitelist();
+
+        $this->domainsProcessed = $this->domains;
     }
 
     public function fetch()
@@ -112,6 +114,7 @@ class Domains
 
     public function export()
     {
+        // Disposable
         $this->climate->comment('data/disposable.php');
         Exporter\Php::save('data/disposable.php', $this->domainsProcessed);
 
@@ -120,6 +123,11 @@ class Domains
 
         $this->climate->comment('data/disposable.json');
         Exporter\Json::save('data/disposable.json', $this->domainsProcessed);
+
+        // Update bin
+        $domainsWithNewline = array_merge($this->domainsProcessed, ['']);
+        $this->climate->comment('data/disposable.txt');
+        Exporter\Text::save('bin/disposable.txt', $domainsWithNewline);
     }
 
     public function getCount()

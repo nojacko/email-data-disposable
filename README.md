@@ -41,7 +41,6 @@ This library contains data about email disposable domains.
 * Submit a pull request, like a boss
 
 ## Roadmap
-* Disposable MX Records (domains but not IP as they change)
 * Example Extensions (for whitelisting)
 * 1.0.0 Release
 
