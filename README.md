@@ -30,5 +30,4 @@ This library contains data about email disposable domains.
 * Submit a pull request, like a boss
 
 ## License
-
 The MIT License (MIT). See LICENCE file.
