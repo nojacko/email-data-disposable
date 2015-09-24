@@ -1,16 +1,7 @@
 # Email Data Disposable
 This library contains data about email disposable domains.
 
----
-
-* **THIS LIBRARY IS NOT FINISHED**
-* **IT WILL HAVE BREAKING CHANGES**
-* **WAIT FOR VERSION 1.0.0**
-
----
-
 ## How To Use
-
 *Only use contents of ```/data/```. The code in this library is just for updating that folder.*
 
 * **Either**, include this project into yours via whatever means you want. Git-submodule, Composer, Bower, NPM, etc... are all possible.
@@ -22,7 +13,6 @@ This library contains data about email disposable domains.
 * Text (one per line)
 
 ## Contribute
-
 ### Add a Domain
 * Add the domain to ```/bin/disposable.txt```
 * Run ```php update.php```
