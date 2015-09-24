@@ -23,10 +23,13 @@
 10minutesmail.com
 10x9.com
 123-m.com
+126.com
 12houremail.com
 12hourmail.com
 12minutemail.com
 12minutemail.net
+139.com
+163.com
 1ce.us
 1chuan.com
 1fsdfdsfsdf.tk
@@ -128,6 +131,8 @@ anonymail.dk
 anonymbox.com
 anonymousmail.org
 anonymousspeech.com
+antichef.com
+antichef.net
 antireg.com
 antireg.ru
 antispam.de
@@ -279,6 +284,7 @@ delikkt.de
 despam.it
 despammed.com
 devnullmail.com
+dfgh.net
 dharmatel.net
 dicksinhisan.us
 dicksinmyan.us
@@ -369,7 +375,6 @@ email-fake.ga
 email-fake.gq
 email-fake.ml
 email-fake.tk
-email.com
 email.net
 email.org
 email4u.info
@@ -432,7 +437,6 @@ eyepaste.com
 facebook-email.cf
 facebook-email.ga
 facebook-email.ml
-facebook.com
 facebookmail.gq
 facebookmail.ml
 faecesmail.me
@@ -460,7 +464,6 @@ fastchevy.com
 fastchrysler.com
 fastermail.com
 fastkawasaki.com
-fastmail.fm
 fastmazda.com
 fastmitsubishi.com
 fastnissan.com
@@ -612,8 +615,6 @@ huajiachem.cn
 hulapla.de
 humaility.com
 humn.ws.gy
-hush.com
-hushmail.com
 i2pmail.org
 ich-bin-verrueckt-nach-dir.de
 ich-will-net.de
@@ -716,7 +717,6 @@ landmail.co
 lass-es-geschehen.de
 lastmail.co
 lastmail.com
-lavabit.com
 lawlita.com
 lazyinbox.com
 letthemeatspam.com
@@ -767,7 +767,6 @@ mail.htl22.at
 mail.me
 mail.mezimages.net
 mail.misterpinball.de
-mail.ru
 mail.sequentialx.com
 mail.svenz.eu
 mail.yt2mp.com
@@ -941,7 +940,6 @@ mytrashmail.com
 mytrashmail.compookmail.com
 nabuma.com
 national.shitposting.agency
-naver.com
 neomailbox.com
 nepwk.com
 nervmich.net
@@ -951,6 +949,7 @@ netmails.net
 netterchef.de
 netzidiot.de
 neue-dateien.de
+neverbox.com
 nevermail.de
 nice-4u.com
 niepodam.pl
@@ -1077,6 +1076,7 @@ receiveee.com
 recode.me
 reconmail.com
 record.me
+recursor.net
 recyclemail.dk
 redchan.it
 regbypass.com
@@ -1096,7 +1096,6 @@ rtrtr.com
 ruffrey.com
 s0ny.net
 saeuferleber.de
-safe-mail.net
 safersignup.com
 safersignup.de
 safetymail.com
@@ -1198,6 +1197,8 @@ spambox.info
 spambox.irishspringrealty.com
 spambox.org
 spambox.us
+spamcannon.com
+spamcannon.net
 spamcero.com
 spamcon.org
 spamcorptastic.com
@@ -1222,6 +1223,9 @@ spamfree24.info
 spamfree24.net
 spamfree24.org
 spamgoes.in
+spamgourmet.com
+spamgourmet.net
+spamgourmet.org
 spamgrube.net
 spamherelots.com
 spamhereplease.com
@@ -1505,11 +1509,14 @@ xents.com
 xmail.com
 xmaily.com
 xoxox.cc
+xoxy.net
 xsecurity.org
 xxtreamcam.com
 xyzfree.net
+yahoo.com.vn
 yanet.me
 yapped.net
+yeah.net
 yep.it
 yert.ye.vc
 yesey.net
