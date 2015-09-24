@@ -33,18 +33,11 @@ This library contains data about email disposable domains.
 * Run ```php update.php```
 * Submit a pull request
 
-
 ### Add Another Format
 * Write a new Exporter class (see ```src/Exporter/BaseInterface.php```)
 * Add it to the end of ```update.php```
 * Run ```php update.php```
 * Submit a pull request, like a boss
-
-## Roadmap
-* Regex Whitelist Matching
- * Example Extensions (.test, .example, .invalid, localhost) 
- * Email providers (gmail.com, yahoo.com, ...)
-* 1.0.0 Release
 
 ## License
 

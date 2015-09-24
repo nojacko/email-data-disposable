@@ -113,12 +113,7 @@ class Domains
     private function removeWhitelisted()
     {
         // Load Whitelisted Domains
-        $whitelist = array_unique(
-            array_merge(
-                $this->data->loadWhitelist('whitelist'),
-                $this->data->loadWhitelist('whitelist-free')
-            )
-        );
+        $whitelist = $this->data->loadWhitelist();
 
         // Remove Whitelisted
         foreach ($this->domainsProcessed as $key => $domain) {

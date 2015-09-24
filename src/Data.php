@@ -13,14 +13,19 @@ class Data
         $this->pathData = $root . '/data/';
     }
 
+    public function getPathToDataFile($format)
+    {
+        return $this->pathData . 'disposable.' . $format;
+    }
+
     public function loadDomains()
     {
         return $this->loadTextFile($this->pathBin . 'disposable.txt');
     }
 
-    public function loadWhitelist($whitelist)
+    public function loadWhitelist()
     {
-        return $this->loadTextFile($this->pathBin . $whitelist . '.txt');
+        return $this->loadTextFile($this->pathBin . 'whitelist.txt');
     }
 
     public function loadSources($type, $format)
@@ -28,7 +33,7 @@ class Data
         return $this->loadTextFile($this->pathBin . 'sources/' . $type . '/' . $format . '.txt');
     }
 
-    public function loadTextFile($path)
+    private function loadTextFile($path)
     {
         $content = file_get_contents($path);
 
