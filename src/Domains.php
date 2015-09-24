@@ -22,8 +22,6 @@ class Domains
         $this->domains = $this->data->loadDomains();
         $this->domainCountStart = count($this->domains);
 
-        $this->whitelist = $this->data->loadWhitelist();
-
         $this->domainsProcessed = $this->domains;
     }
 
@@ -74,13 +72,13 @@ class Domains
         $this->climate->comment('De-duplicating...');
         $this->domainsProcessed = array_unique($this->domainsProcessed);
 
+        // Remove Whitelisted
+        $this->climate->comment('Removing whitelisted domains...');
+        $this->removeWhitelisted();
+
         // Remove Index Keys
         $this->climate->comment('Removing indexes...');
         $this->domainsProcessed = array_values($this->domainsProcessed);
-
-        // Remove Whitelisted
-        $this->climate->comment('Remove whitelists...');
-        $this->domainsProcessed = array_diff($this->domainsProcessed, $this->whitelist);
 
         // Count
         $this->domainsProcessedCount = count($this->domainsProcessed);
@@ -110,6 +108,33 @@ class Domains
         }
 
         $this->domainsProcessedCount = count($this->domainsProcessed);
+    }
+
+    private function removeWhitelisted()
+    {
+        // Load Whitelisted Domains
+        $whitelist = array_unique(
+            array_merge(
+                $this->data->loadWhitelist('whitelist'),
+                $this->data->loadWhitelist('whitelist-free')
+            )
+        );
+
+        // Remove Whitelisted
+        foreach ($this->domainsProcessed as $key => $domain) {
+            foreach ($whitelist as $value) {
+                // ^VALUE$ or ^ANYTHING.VALUES$
+                $regex = '(^|.+\.)';
+                $regex .= str_replace('.', '\\.', $value);
+                $regex .= '$';
+                $regex = '/'.$regex.'/i';
+                // echo $regex . PHP_EOL;
+                if (preg_match($regex, $domain)) {
+                    unset($this->domainsProcessed[$key]);
+                    break;
+                }
+            }
+        }
     }
 
     public function export()

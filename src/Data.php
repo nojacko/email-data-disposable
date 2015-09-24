@@ -18,9 +18,9 @@ class Data
         return $this->loadTextFile($this->pathBin . 'disposable.txt');
     }
 
-    public function loadWhitelist()
+    public function loadWhitelist($whitelist)
     {
-        return $this->loadTextFile($this->pathBin . 'whitelist.txt');
+        return $this->loadTextFile($this->pathBin . $whitelist . '.txt');
     }
 
     public function loadSources($type, $format)
@@ -36,6 +36,25 @@ class Data
             $content = preg_split('/\r\n|\r|\n/', trim($content));
         }
 
-        return is_array($content) ? $content : [];
+        // Filter comments / blank lines
+        $domains = [];
+        if (is_array($content)) {
+            foreach ($content as $domain) {
+                $domain = trim($domain);
+
+                // Too Shoot
+                if (mb_strlen($domain) <= 4) {
+                    continue;
+                }
+                // Comment?
+                if (mb_substr($domain, 0, 2) === '//') {
+                    continue;
+                }
+
+                $domains[] = $domain;
+            }
+        }
+
+        return $domains;
     }
 }
