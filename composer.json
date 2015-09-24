@@ -13,9 +13,7 @@
         }
     },
     "require-dev": {
+        "league/climate": "^3.2",
         "php-curl-class/php-curl-class": "~2.1"
-    },
-    "require": {
-        "league/climate": "^3.2"
     }
 }
