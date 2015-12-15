@@ -87,6 +87,20 @@ class Domains
     private function santise()
     {
         foreach ($this->domains as $key => $domain) {
+
+            // Add IND support
+            $idnDomain = idn_to_ascii($domain);
+            if ($idnDomain === false) {
+                continue;
+            }
+
+            /**
+             * Validates domain as URL (according to » @link http://www.faqs.org/rfcs/rfc2396)
+             */
+            if (!filter_var('http://'.idn_to_ascii($idnDomain).'/', FILTER_VALIDATE_URL)) {
+                continue;
+            }
+
             // Replace *.example.com with just example.com
             if (strpos($domain, '*.') === 0) {
                 $domain = substr($domain, 2);

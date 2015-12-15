@@ -145,6 +145,7 @@ artman-conception.com
 asdasd.nl
 asdasd.ru
 atvclub.msk.ru
+auti.st
 autosfromus.com
 aver.com
 avpa.nl
@@ -313,7 +314,6 @@ disposable.ml
 disposableaddress.com
 disposableemailaddresses.com
 disposableemailaddresses.emailmiser.com
-disposableemailaddresses:emailmiser.com
 disposableinbox.com
 dispose.it
 disposeamail.com
@@ -321,7 +321,6 @@ disposemail.com
 dispostable.com
 divermail.com
 dm.w3internet.co.uk
-dm.w3internet.co.uk example.com
 dm.w3internet.co.ukexample.com
 docmail.com
 docmail.cz
@@ -329,6 +328,7 @@ docsis.ru
 dodgeit.com
 dodgit.com
 dodgit.org
+dodsi.com
 dogit.com
 doiea.com
 domozmail.com
@@ -615,6 +615,8 @@ huajiachem.cn
 hulapla.de
 humaility.com
 humn.ws.gy
+hush.ai
+hushmail.me
 i2pmail.org
 ich-bin-verrueckt-nach-dir.de
 ich-will-net.de
@@ -1130,6 +1132,7 @@ shieldedmail.com
 shieldemail.com
 shiftmail.com
 shinedyoureyes.com
+shitmail.de
 shitmail.me
 shitmail.org
 shitware.nl
@@ -1253,6 +1256,7 @@ speed.1s.fr
 sperke.net
 spikio.com
 spoofmail.de
+spybox.de
 squizzy.de
 sriaus.com
 sry.li
@@ -1289,6 +1293,7 @@ teewars.org
 teleworm.com
 teleworm.us
 temp-mail.com
+temp-mail.de
 temp-mail.org
 temp-mail.ru
 temp.emeraldwebmail.com
@@ -1303,6 +1308,7 @@ tempemail.net
 tempimbox.com
 tempinbox.co.uk
 tempinbox.com
+tempmail.co
 tempmail.eu
 tempmail.it
 tempmail2.com
@@ -1369,6 +1375,7 @@ trash2009.com
 trash2010.com
 trash2011.com
 trashbox.eu
+trashcanmail.com
 trashdevil.com
 trashdevil.de
 trashemail.de
@@ -1415,6 +1422,7 @@ venompen.com
 verlass-mich-nicht.de
 veryrealemail.com
 veryrealmail.com
+vfemail.net
 vidchart.com
 viditag.com
 viewcastmedia.com
@@ -1466,6 +1474,9 @@ wegwerfmail.info
 wegwerfmail.net
 wegwerfmail.org
 wegwerpmailadres.nl
+wegwrfmail.de
+wegwrfmail.net
+wegwrfmail.org
 weibsvolk.de
 weibsvolk.org
 weinenvorglueck.de
