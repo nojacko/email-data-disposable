@@ -94,9 +94,7 @@ class Domains
                 continue;
             }
 
-            /**
-             * Validates domain as URL (according to » @link http://www.faqs.org/rfcs/rfc2396)
-             */
+            // Validates domain as URL (according to » @link http://www.faqs.org/rfcs/rfc2396)
             if (!filter_var('http://'.idn_to_ascii($idnDomain).'/', FILTER_VALIDATE_URL)) {
                 continue;
             }

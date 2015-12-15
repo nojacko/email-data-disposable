@@ -8,7 +8,7 @@ This library contains data about email disposable domains.
 * **Or**, copy the data you want manually.
 
 ## Formats
-* PHP (file returns single dimension array)
+* PHP (returns single dimension array)
 * JSON (single dimension array)
 * Text (one per line)
 
@@ -25,7 +25,7 @@ This library contains data about email disposable domains.
 
 ### Add Another Format
 * Write a new Exporter class (see ```src/Exporter/BaseInterface.php```)
-* Add it to the end of ```update.php```
+* Add it to the ```export``` function in ```src/Domains.php```
 * Run ```php update.php```
 * Submit a pull request, like a boss
 
