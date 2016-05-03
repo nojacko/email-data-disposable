@@ -240,6 +240,7 @@ return array (
     'chong-mail.net',
     'chong-mail.org',
     'chongsoft.org',
+    'clipmail.eu',
     'clixser.com',
     'clrmail.com',
     'cmail.com',
