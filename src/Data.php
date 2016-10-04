@@ -38,7 +38,7 @@ class Data
         $content = file_get_contents($path);
 
         if ($content) {
-            $content = preg_split('/\r\n|\r|\n/', trim($content));
+            $content = preg_split('/\r\n|\n\r|\r|\n/', trim($content));
         }
 
         // Filter comments / blank lines

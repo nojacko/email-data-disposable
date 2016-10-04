@@ -11,7 +11,7 @@ class Newline
         $content = $curl->get($url);
 
         if ($content) {
-            $domains = preg_split('/\r\n|\r|\n/', trim($content));
+            $domains = preg_split('/\r\n|\n\r|\r|\n/', trim($content));
 
             if (is_array($domains)) {
                 return $domains;
