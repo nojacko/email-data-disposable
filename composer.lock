@@ -4,22 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79cb4fe36a019f7dd451e586d9f65932",
     "content-hash": "d4f82dab1160978833122e241585124a",
     "packages": [],
     "packages-dev": [
         {
             "name": "league/climate",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/climate.git",
-                "reference": "834cb907c89eb31e2171b68ee25c0ed26c8f34f4"
+                "reference": "b103fc8faa3780c802cc507d5f0ff534ecc94fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/climate/zipball/834cb907c89eb31e2171b68ee25c0ed26c8f34f4",
-                "reference": "834cb907c89eb31e2171b68ee25c0ed26c8f34f4",
+                "url": "https://api.github.com/repos/thephpleague/climate/zipball/b103fc8faa3780c802cc507d5f0ff534ecc94fb5",
+                "reference": "b103fc8faa3780c802cc507d5f0ff534ecc94fb5",
                 "shasum": ""
             },
             "require": {
@@ -28,7 +27,7 @@
             },
             "require-dev": {
                 "mikey179/vfsstream": "~1.4",
-                "mockery/mockery": "dev-master",
+                "mockery/mockery": "~0.9",
                 "phpunit/phpunit": "~4.6"
             },
             "type": "library",
@@ -57,7 +56,7 @@
                 "php",
                 "terminal"
             ],
-            "time": "2015-08-13 16:50:51"
+            "time": "2016-04-04T20:24:59+00:00"
         },
         {
             "name": "php-curl-class/php-curl-class",
@@ -97,20 +96,20 @@
                 "curl",
                 "php"
             ],
-            "time": "2014-12-18 18:22:32"
+            "time": "2014-12-18T18:22:32+00:00"
         },
         {
             "name": "seld/cli-prompt",
-            "version": "1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/cli-prompt.git",
-                "reference": "fe114c7a6ac5cb0ce76932ae4017024d9842a49c"
+                "reference": "a19a7376a4689d4d94cab66ab4f3c816019ba8dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/fe114c7a6ac5cb0ce76932ae4017024d9842a49c",
-                "reference": "fe114c7a6ac5cb0ce76932ae4017024d9842a49c",
+                "url": "https://api.github.com/repos/Seldaek/cli-prompt/zipball/a19a7376a4689d4d94cab66ab4f3c816019ba8dd",
+                "reference": "a19a7376a4689d4d94cab66ab4f3c816019ba8dd",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +144,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2015-04-30 20:24:49"
+            "time": "2017-03-18T11:32:45+00:00"
         }
     ],
     "aliases": [],
