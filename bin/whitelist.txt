@@ -144,3 +144,8 @@ live.com
 hotmail.com.mx
 prodigy.net.mx
 msn.com
+
+// Hungarian ISP domains
+
+freemail.hu
+
