@@ -88,6 +88,7 @@ yahoo.co.id
 yahoo.co.in
 yahoo.com.sg
 yahoo.com.ph
+163.com
 
 // French ISP domains
 hotmail.fr

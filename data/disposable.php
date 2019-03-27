@@ -50,7 +50,6 @@ return array (
     '140unichars.com',
     '147.cl',
     '14n.co.uk',
-    '163.com',
     '1ce.us',
     '1chuan.com',
     '1clck2.com',
