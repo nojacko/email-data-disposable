@@ -88,6 +88,8 @@ yahoo.co.id
 yahoo.co.in
 yahoo.com.sg
 yahoo.com.ph
+126.com
+139.com
 163.com
 
 // French ISP domains
