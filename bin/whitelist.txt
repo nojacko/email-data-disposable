@@ -120,6 +120,9 @@ yandex.ru
 ya.ru
 list.ru
 
+// Ukrainian ISP domains
+ukr.net
+
 // Belgian ISP domains
 hotmail.be
 live.be
