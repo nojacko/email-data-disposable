@@ -88,6 +88,9 @@ yahoo.co.id
 yahoo.co.in
 yahoo.com.sg
 yahoo.com.ph
+126.com
+139.com
+163.com
 
 // French ISP domains
 hotmail.fr
@@ -116,6 +119,9 @@ rambler.ru
 yandex.ru
 ya.ru
 list.ru
+
+// Ukrainian ISP domains
+ukr.net
 
 // Belgian ISP domains
 hotmail.be
